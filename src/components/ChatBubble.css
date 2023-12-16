@@ -1,0 +1,50 @@
+.chat-bubble {
+  max-width: 80%;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  clear: both;
+  word-wrap: break-word;
+}
+
+.chat-container {
+  max-width: 80%;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  clear: both;
+  word-wrap: break-word;
+}
+.chat-container.user {
+  float: right;
+}
+
+.chat-container.other {
+  float: left;
+}
+
+.chat-bubble p {
+  margin: 0;
+}
+
+.chat-bubble.user {
+  background-color: #007bff;
+  color: white;
+}
+
+.chat-bubble.other {
+  background-color: #f1f0f0;
+  color: #333;
+}
+
+.timestamp-small {
+  font-size: 10px;
+  color: #292929;
+  text-align: right;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
